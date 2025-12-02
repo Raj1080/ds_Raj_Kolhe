@@ -1,0 +1,6 @@
+1) Most trades: neutral (58035 trades).
+2) Highest average closed PnL buckets: unknown, extreme_greed, neutral.
+3) Lowest average closed PnL buckets: extreme_fear, fear, greed.
+4) Overall win rate across all trades: 86869/211224 = 41.13%.
+5) Consider investigating trading strategies concentrated under 'extreme_fear' (low mean_pnl and win_rate) to understand risk exposure.
+6) If Kruskal-Wallis test is significant, pairwise Dunn results (dunn_posthoc_pvals.csv) identify which sentiment buckets differ significantly.
